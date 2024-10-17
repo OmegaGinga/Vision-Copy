@@ -44,7 +44,7 @@ document.getElementById('commandInput')?.addEventListener('keypress', function(e
                 window.location.href = 'arph.html'; // Redirige a ARPH
                 break;
             case 'INIC':
-                window.location.href = 'inicio.html'; // Redirige a inicio
+                window.location.href = 'index.html'; // Redirige a inicio
                 break;
             default:
                 console.log("Comando no reconocido");
