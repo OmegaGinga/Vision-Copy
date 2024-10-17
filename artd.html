@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VISION Copy - ARSD3</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="artd">
+
+    <!-- Command Input para cambiar a otra página -->
+    <div>
+        (<input type="text" id="commandInput">)
+    </div>
+
+    <!-- Datos de la cuenta -->
+    <div class="top-container">
+        <p>ORG: 12345</p>
+        <p>ACCNT: <input type="text" value="" id="cardNumberInput" readonly></p>
+    </div>
+
+    <!-- Fecha de corte de la cuenta -->
+    <div class="account-details-container">
+        <p><strong>Fecha de corte de cuenta:</strong> <span id="cutoffDate"></span></p>
+    </div>
+
+    <!-- Movimientos de la cuenta -->
+    <div class="account-movements">
+        <h3>Movimientos de la cuenta</h3>
+        <table>
+            <tr>
+              <th>Fecha</th>
+              <th>Número de referencia</th>
+              <th>Monto de compra</th>
+              <th>Código de transacción</th>
+              <th>Concepto de compra</th>
+            </tr>
+            <tr>
+              <td>01/10/2024</td>
+              <td>REF23456</td>
+              <td>$1500.00</td>
+              <td>ACPT</td>
+              <td>Compra en tienda A</td>
+            </tr>
+            <tr>
+              <td>02/10/2024</td>
+              <td>REF23457</td>
+              <td>$1000.00</td>
+              <td>ACPT</td>
+              <td>Compra en línea B</td>
+            </tr>
+            <tr>
+              <td>03/10/2024</td>
+              <td>REF23458</td>
+              <td>$1200.00</td>
+              <td>ACPT</td>
+              <td>Compra en supermercado C</td>
+            </tr>
+            <tr>
+              <td>04/10/2024</td>
+              <td>REF23459</td>
+              <td>$999.50</td>
+              <td>ACPT</td>
+              <td>Compra en tienda D</td>
+            </tr>
+            <tr>
+              <td>05/10/2024</td>
+              <td>REF23460</td>
+              <td>$600.50</td>
+              <td>ACPT</td>
+              <td>Compra en tienda E</td>
+            </tr>
+          </table>
+          
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

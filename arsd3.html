@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VISION Copy - ARSD3</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="arsd3">
+    <!-- Command Input para cambiar a otra página -->
+    <div>
+        (<input type="text" id="commandInput">)
+    </div>
+
+    <!-- Datos de la cuenta -->
+    <div class="top-container">
+        <p>ORG: 12345</p>
+        <p>ACCNT: <input type="text" value="" id="cardNumberInput" readonly></p>
+    </div>
+
+    <!-- Fecha de corte de la cuenta -->
+    <div class="account-details-container">
+        <p><strong>Fecha de corte de cuenta:</strong> <span id="cutoffDate"></span></p>
+    </div>
+
+    <!-- Movimientos de la cuenta -->
+    <div class="account-movements">
+        <h3>Movimientos de la cuenta</h3>
+        <table id="transactionsTable">
+            <thead>
+                <tr>
+                    <th>Fecha</th>
+                    <th>Número de referencia</th>
+                    <th>Monto de compra</th>
+                    <th>Código de transacción</th>
+                    <th>Concepto de compra</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                </tr>
+                <tr>
+                </tr>
+                <!-- Añadir más movimientos aquí -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,460 @@
+Desgloces de cuenta:
+
+Fácil Principiante
+
+ARIQ
+
+Nombre del cliente: José García
+
+Línea de crédito: 9,500$
+
+Línea de crédito disponible: 3,200$
+
+Línea de crédito para disposición: 0$
+
+Saldo del mes: 1,000$
+
+Saldo total: 6,300$
+
+Fecha de corte: 17
+
+Fecha límite de pago: 10/10/2024
+
+Próxima anualidad: 01/01/2025
+
+Bloqueo de cuenta: NO
+
+
+ARIQ2
+
+Línea de crédito: 9,500$
+
+Saldo total: 6,300
+
+Pago del mes: 1,000$
+
+ARPH
+
+    { "date": "09/09/2024", "amount": "950$" },
+    { "date": "08/09/2024", "amount": "1,120$" },
+    { "date": "07/09/2024", "amount": "1,000$" },
+    { "date": "06/09/2024", "amount": "1,150$" },
+    { "date": "05/09/2024", "amount": "900$" },
+    { "date": "04/09/2024", "amount": "1,050$" }
+
+ARSD2:
+
+Fecha de corte de cuenta: 17/10/2024
+Fecha límite de pago: 10/11/2024
+Cantidad de pago: 949.50$
+
+ARSD3
+
+Fecha	Número de referencia	Monto de compra	Código de transacción	Concepto de compra
+   { "date": "12/10/2024", "reference": "REF12345", "amount": "$350.00", "transactionCode": "ACPT", "concept": "Compra en tienda X" },
+    { "date": "13/10/2024", "reference": "REF12346", "amount": "$320.00", "transactionCode": "C850", "concept": "Compra en línea Y" },
+    { "date": "14/10/2024", "reference": "REF12347", "amount": "$250.00", "transactionCode": "ACPT", "concept": "Compra en supermercado" },
+    { "date": "15/10/2024", "reference": "REF12348", "amount": "$80.00", "transactionCode": "C850", "concept": "Compra en restaurante Z" },
+    { "date": "16/10/2024", "reference": "REF12349", "amount": "$0.50", "transactionCode": "ACPT", "concept": "Compra en tienda W" }
+
+ARTD
+
+Fecha	Número de referencia	Monto de compra	Código de transacción	Concepto de compra
+
+01/10/2024	REF23456	$1500.00	ACPT	Compra en tienda A
+02/10/2024	REF23457	$1000.00	ACPT	Compra en línea B
+03/10/2024	REF23458	$1200.00	ACPT	Compra en supermercado C
+04/10/2024	REF23459	$999.50		ACPT	Compra en tienda D
+05/10/2024	REF23460	$600.50		ACPT	Compra en tienda E
+
+Fácil con parcialidades
+
+ARIQ
+Nombre del cliente: Rosa Hernandez
+Línea de crédito: 10,200$
+Línea de crédito disponible: 3,900$ (Línea de crédito - saldo total)
+Línea de crédito para disposición: 0$
+Saldo del mes: 1,100$
+Saldo total: 6,300$
+Fecha de corte: 17
+Fecha límite de pago: 10/10/2024
+Próxima anualidad: 01/01/2025
+Bloqueo de cuenta: NO
+
+ARIQ2
+Línea de crédito: 10,200$
+Saldo total: 6,300$
+Pago del mes: 1,100$
+
+ARPH
+
+  { "date": "09/09/2024", "amount": "950$" },
+  { "date": "08/09/2024", "amount": "1,120$" },
+  { "date": "07/09/2024", "amount": "1,000$" },
+  { "date": "06/09/2024", "amount": "1,150$" },
+  { "date": "05/09/2024", "amount": "900$" },
+  { "date": "04/09/2024", "amount": "1,050$" }
+
+ARSD
+
+  "Fecha de corte de cuenta": "17/08/2024",
+  "Fecha límite de pago": "10/09/2024",
+  "Cantidad de pago": "950.00$"
+
+ARSD3
+
+ { "date": "12/10/2024", "reference": "REF12345", "amount": "$350.00", "transactionCode": "ACPT", "concept": "Compra en tienda X" },
+  { "date": "12/10/2024", "reference": "REF12345", "amount": "$100.00", "transactionCode": "ACPT", "concept": "Compra en tienda X" },
+  { "date": "12/10/2024", "reference": "REF12344", "amount": "$100.00", "transactionCode": "ACPT", "concept": "Compra en tienda Y" },
+  { "date": "13/10/2024", "reference": "REF12346", "amount": "$250.00", "transactionCode": "ACPT", "concept": "1/2Compra en supermercado" },
+  { "date": "14/10/2024", "reference": "REF12346", "amount": "$250.00", "transactionCode": "ACPT", "concept": "1/2Parcialidad" },
+  { "date": "15/10/2024", "reference": "REF12348", "amount": "$80.00", "transactionCode": "ACPT", "concept": "Compra en restaurante Z" },
+  { "date": "16/10/2024", "reference": "REF12349", "amount": "$70.00", "transactionCode": "ACPT", "concept": "Compra en tienda W" }
+  { "date": "16/10/2024", "reference": "REF12350", "amount": "$150.00", "transactionCode": "ACPT", "concept": "Compra en tienda M" }
+
+ARTD
+ { "date": "01/10/2024", "reference": "REF23456", "amount": "$1,500.00", "transactionCode": "ACPT", "concept": "Compra en tienda A" },
+  { "date": "02/10/2024", "reference": "REF23457", "amount": "$1,000.00", "transactionCode": "ACPT", "concept": "Compra en línea B" },
+  { "date": "03/10/2024", "reference": "REF23458", "amount": "$1,200.00", "transactionCode": "ACPT", "concept": "Compra en supermercado C" },
+  { "date": "04/10/2024", "reference": "REF23459", "amount": "$999.50", "transactionCode": "ACPT", "concept": "Compra en tienda D" },
+  { "date": "05/10/2024", "reference": "REF23460", "amount": "$500.50", "transactionCode": "ACPT", "concept": "Compra en tienda E" }
+
+Fácil tirando a medio por la cantidad de parcialidades
+
+ARIQ
+Nombre del cliente: Renata Ramirez
+Línea de crédito: 15,000$
+Línea de crédito disponible: 5,700$ (Línea de crédito - saldo total)
+Línea de crédito para disposición: 0$
+Saldo del mes: 1,600$
+Saldo total: 9,300$
+Fecha de corte: 17
+Fecha límite de pago: 10/10/2024
+Próxima anualidad: 01/01/2025
+Bloqueo de cuenta: NO
+
+ARIQ2
+Línea de crédito: 15,000$
+Saldo total: 9,300$
+Pago del mes: 1,600$
+
+ARPH
+
+{ "date": "09/09/2024", "amount": "950" },
+  { "date": "08/09/2024", "amount": "1,200$" },
+  { "date": "07/09/2024", "amount": "1,100$" },
+  { "date": "06/09/2024", "amount": "1,150$" },
+  { "date": "05/09/2024", "amount": "950$" },
+  { "date": "04/09/2024", "amount": "1,000$" }
+
+ARSD
+
+  "Fecha de corte de cuenta": "17/08/2024",
+  "Fecha límite de pago": "10/09/2024",
+  "Cantidad de pago": "949.00$"
+
+ARSD3
+
+ { "date": "12/10/2024", "reference": "REF12345", "amount": "$350.00", "transactionCode": "ACPT", "concept": "Compra en tienda X" },
+  { "date": "12/10/2024", "reference": "REF12345", "amount": "$100.00", "transactionCode": "ACPT", "concept": "Compra en tienda X" },
+  { "date": "12/10/2024", "reference": "REF12344", "amount": "$100.00", "transactionCode": "ACPT", "concept": "Compra en tienda Y" },
+  { "date": "13/10/2024", "reference": "REF12346", "amount": "$250.00", "transactionCode": "ACPT", "concept": "1/2Compra en supermercado" },
+  { "date": "13/10/2024", "reference": "REF12346", "amount": "$250.00", "transactionCode": "ACPT", "concept": "1/2Parcialidad" },
+ { "date": "12/10/2024", "reference": "REF12345", "amount": "$250.00", "transactionCode": "ACPT", "concept": "1/4Compra en tienda X" },
+ { "date": "12/10/2024", "reference": "REF12345", "amount": "$80.00", "transactionCode": "ACPT", "concept": "1/4Interes Parcialidad X" },
+ { "date": "12/10/2024", "reference": "REF12345", "amount": "$10.00", "transactionCode": "ACPT", "concept": "1/4IVA Parcialidad" },
+ { "date": "12/10/2024", "reference": "REF12345", "amount": "$340.00", "transactionCode": "ACPT", "concept": "1/4Parcialidad" },
+ { "date": "12/10/2024", "reference": "REF22222", "amount": "$20.00", "transactionCode": "ACPT", "concept": "1/9Mercado Libre" },
+ { "date": "12/10/2024", "reference": "REF22222", "amount": "$20.00", "transactionCode": "ACPT", "concept": "1/9Parcialidad" },
+ { "date": "13/10/2024", "reference": "REF22233", "amount": "$45.00", "transactionCode": "ACPT", "concept": "3/6Amazon" },
+ { "date": "13/10/2024", "reference": "REF22233", "amount": "$45.00", "transactionCode": "ACPT", "concept": "3/6Amazon" },
+ { "date": "13/10/2024", "reference": "REF33333", "amount": "$70.00", "transactionCode": "ACPT", "concept": "2/12C&A" },
+ { "date": "13/10/2024", "reference": "REF33333", "amount": "$20.00", "transactionCode": "ACPT", "concept": "2/12Parcialidad interes" },
+ { "date": "13/10/2024", "reference": "REF33333", "amount": "$5.00", "transactionCode": "ACPT", "concept": "2/12Parcialidad IVA" },
+ { "date": "13/10/2024", "reference": "REF33333", "amount": "$95.00", "transactionCode": "ACPT", "concept": "2/12Parcialidad" },
+  { "date": "15/10/2024", "reference": "REF12348", "amount": "$80.00", "transactionCode": "ACPT", "concept": "Compra en restaurante Z" },
+  { "date": "16/10/2024", "reference": "REF12349", "amount": "$70.00", "transactionCode": "ACPT", "concept": "Compra en tienda W" },
+  { "date": "16/10/2024", "reference": "REF12350", "amount": "$150.00", "transactionCode": "ACPT", "concept": "Compra en tienda M" },
+
+
+ARTD
+ { "date": "12/10/2024", "reference": "REF12345", "amount": "$250.00", "transactionCode": "ACPT", "concept": "2/4Compra en tienda X" },
+ { "date": "12/10/2024", "reference": "REF12345", "amount": "$80.00", "transactionCode": "ACPT", "concept": "2/4Interes Parcialidad X" },
+ { "date": "12/10/2024", "reference": "REF12345", "amount": "$10.00", "transactionCode": "ACPT", "concept": "2/4IVA Parcialidad" },
+ { "date": "12/10/2024", "reference": "REF12345", "amount": "$340.00", "transactionCode": "ACPT", "concept": "2/4Parcialidad" },
+ { "date": "12/10/2024", "reference": "REF12390", "amount": "$2000.00", "transactionCode": "ACPT", "concept": "Abarratores nachillo" },
+ { "date": "12/10/2024", "reference": "REF22222", "amount": "$20.00", "transactionCode": "ACPT", "concept": "2/9Mercado Libre" },
+ { "date": "12/10/2024", "reference": "REF22222", "amount": "$20.00", "transactionCode": "ACPT", "concept": "2/9Parcialidad" },
+  { "date": "13/10/2024", "reference": "REF12346", "amount": "$250.00", "transactionCode": "ACPT", "concept": "2/2Compra en supermercado" },
+  { "date": "13/10/2024", "reference": "REF12346", "amount": "$250.00", "transactionCode": "ACPT", "concept": "2/2Parcialidad" },
+ { "date": "13/10/2024", "reference": "REF22233", "amount": "$45.00", "transactionCode": "ACPT", "concept": "4/6Amazon" },
+ { "date": "13/10/2024", "reference": "REF22233", "amount": "$45.00", "transactionCode": "ACPT", "concept": "4/6Amazon" },
+ { "date": "13/10/2024", "reference": "REF33333", "amount": "$70.00", "transactionCode": "ACPT", "concept": "3/12C&A" },
+ { "date": "13/10/2024", "reference": "REF33333", "amount": "$20.00", "transactionCode": "ACPT", "concept": "3/12Parcialidad interes" },
+ { "date": "13/10/2024", "reference": "REF33333", "amount": "$5.00", "transactionCode": "ACPT", "concept": "3/12Parcialidad IVA" },
+ { "date": "13/10/2024", "reference": "REF33333", "amount": "$95.00", "transactionCode": "ACPT", "concept": "3/12Parcialidad" },
+ { "date": "14/10/2024", "reference": "REF44444", "amount": "$3185.00", "transactionCode": "ACPT", "concept": "Flamingo" },
+
+Nivel medio.
+
+ARIQ
+
+Nombre del cliente: Carlos Fernández
+Línea de crédito: 12,500$
+Línea de crédito disponible: 3,800$ (Línea de crédito - saldo total)
+Línea de crédito para disposición: 0$
+Saldo del mes: 1,200$
+Saldo total: 8,700$
+Fecha de corte: 17
+Fecha límite de pago: 10/10/2024
+Próxima anualidad: 01/01/2025
+Bloqueo de cuenta: NO
+
+
+ARIQ2
+Línea de crédito: 12,500$
+Saldo total: 8,700$
+Pago del mes: 1,200$
+
+ARPH
+  { "date": "09/09/2024", "amount": "1,050$" },
+  { "date": "08/09/2024", "amount": "1,250$" },
+  { "date": "07/09/2024", "amount": "1,350$" },
+  { "date": "06/09/2024", "amount": "1,100$" },
+  { "date": "05/09/2024", "amount": "1,000$" },
+  { "date": "04/09/2024", "amount": "1,150$" },
+
+ARSD2
+
+ "Fecha de corte de cuenta": "17/08/2024"
+  "Fecha límite de pago": "10/09/2024"
+  "Cantidad de pago": "1,049.32$"
+
+ARSD3
+[
+  { "date": "16/10/2024", "reference": "REF12348", "amount": "$50.00", "transactionCode": "ACPT", "concept": "1/3Compra en tienda D" },
+  { "date": "16/10/2024", "reference": "REF12348", "amount": "$10.00", "transactionCode": "ACPT", "concept": "1/3Parcialidad Interés" },
+  { "date": "16/10/2024", "reference": "REF12348", "amount": "$5.00", "transactionCode": "ACPT", "concept": "1/3Parcialidad IVA" },
+  { "date": "16/10/2024", "reference": "REF12348", "amount": "$65.00", "transactionCode": "ACPT", "concept": "1/3Parcialidad" },
+  { "date": "16/10/2024", "reference": "REF12342", "amount": "$2500.00", "transactionCode": "ACPT", "concept": "Ajuste parcialidad" },
+  { "date": "15/10/2024", "reference": "REF12347", "amount": "$150.00", "transactionCode": "ACPT", "concept": "6/12Compra en tienda C" },
+  { "date": "15/10/2024", "reference": "REF12347", "amount": "$150.00", "transactionCode": "ACPT", "concept": "6/12Parcialidad" },
+  { "date": "15/10/2024", "reference": "REF12346", "amount": "$200.00", "transactionCode": "ACPT", "concept": "3/9Compra en tienda B" },
+  { "date": "15/10/2024", "reference": "REF12346", "amount": "$200.00", "transactionCode": "ACPT", "concept": "3/9Parcialidad" },
+  { "date": "14/10/2024", "reference": "REF12345", "amount": "$400.00", "transactionCode": "ACPT", "concept": "1/6Compra en tienda A" },
+  { "date": "14/10/2024", "reference": "REF12345", "amount": "$400.00", "transactionCode": "ACPT", "concept": "1/6Parcialidad" },
+  { "date": "13/10/2024", "reference": "REF12344", "amount": "$20.00", "transactionCode": "ACPT", "concept": "Amazon" },
+  { "date": "13/10/2024", "reference": "REF12343", "amount": "$10.00", "transactionCode": "ACPT", "concept": "Shein" },
+  { "date": "12/10/2024", "reference": "REF12342", "amount": "$2500.00", "transactionCode": "ACPT", "concept": "Abarrotes" },
+  { "date": "12/10/2024", "reference": "REF12341", "amount": "$1500.00", "transactionCode": "C850", "concept": "C&A" },
+  { "date": "12/10/2024", "reference": "REF12340", "amount": "$1500.00", "transactionCode": "ACPT", "concept": "C&A" },
+  { "date": "12/10/2024", "reference": "REF12339", "amount": "$150.00", "transactionCode": "ACPT", "concept": "C&A" },
+  { "date": "12/10/2024", "reference": "REF12338", "amount": "$205.68", "transactionCode": "ACPT", "concept": "C&A" },
+
+]
+
+ARTD
+  { "date": "16/10/2024", "reference": "REF12355", "amount": "$1500.00", "transactionCode": "ACPT", "concept": "Compra en tienda Y" },
+  { "date": "16/10/2024", "reference": "REF12354", "amount": "$1000.00", "transactionCode": "ACPT", "concept": "Compra en tienda X" },	
+  { "date": "16/10/2024", "reference": "REF12348", "amount": "$50.00", "transactionCode": "ACPT", "concept": "2/3Compra en tienda D" },
+  { "date": "16/10/2024", "reference": "REF12348", "amount": "$10.00", "transactionCode": "ACPT", "concept": "2/3Parcialidad Interés" },
+  { "date": "16/10/2024", "reference": "REF12348", "amount": "$5.00", "transactionCode": "ACPT", "concept": "2/3Parcialidad IVA" },
+  { "date": "16/10/2024", "reference": "REF12348", "amount": "$65.00", "transactionCode": "ACPT", "concept": "2/3Parcialidad" },
+  { "date": "15/10/2024", "reference": "REF12347", "amount": "$150.00", "transactionCode": "ACPT", "concept": "7/12Compra en tienda C" },
+  { "date": "15/10/2024", "reference": "REF12347", "amount": "$150.00", "transactionCode": "ACPT", "concept": "7/12Parcialidad" },	
+  { "date": "15/10/2024", "reference": "REF12346", "amount": "$200.00", "transactionCode": "ACPT", "concept": "4/9Compra en tienda B" },
+  { "date": "15/10/2024", "reference": "REF12346", "amount": "$200.00", "transactionCode": "ACPT", "concept": "4/9Parcialidad" },
+  { "date": "15/10/2024", "reference": "REF12356", "amount": "$500.00", "transactionCode": "ACPT", "concept": "Compra en tienda Z" },
+  { "date": "14/10/2024", "reference": "REF12345", "amount": "$400.00", "transactionCode": "ACPT", "concept": "2/6Compra en tienda A" },
+  { "date": "14/10/2024", "reference": "REF12345", "amount": "$400.00", "transactionCode": "ACPT", "concept": "2/6Parcialidad" },
+  { "date": "13/10/2024", "reference": "REF12358", "amount": "$270.00", "transactionCode": "ACPT", "concept": "Compra en tienda A" }
+
+
+Difícil
+
+ARIQ
+Nombre del cliente: Ronaldo Rico
+Línea de crédito: 30,000$
+Línea de crédito disponible: 7,500$
+Línea de crédito para disposición: 2500$
+Saldo del mes: 4,500$
+Saldo total: 18,000$
+Fecha de corte: 17
+Fecha límite de pago: 10/10/2024
+Próxima anualidad: 01/01/2025
+Bloqueo de cuenta: NO
+
+ARIQ2
+Línea de crédito: 30,000$
+Saldo total: 18,000$
+Pago del mes: 2,500$
+
+ARPH
+  { "date": "09/09/2024", "amount": "3,561$" },
+  { "date": "08/09/2024", "amount": "4,750.99$" },
+  { "date": "07/09/2024", "amount": "5,850.75$" },
+  { "date": "06/09/2024", "amount": "3,450.20$" },
+  { "date": "05/09/2024", "amount": "2,900.30$" },
+  { "date": "04/09/2024", "amount": "4,400.10$" },
+
+ARSD
+
+ "Fecha de corte de cuenta": "17/08/2024"
+  "Fecha límite de pago": "10/09/2024"
+  "Cantidad de pago": "3,561$"
+
+ARSD3
+
+[
+  { "date": "16/10/2024", "reference": "REF12399", "amount": "$270.00", "transactionCode": "C850", "concept": "Compra en línea D" },
+  { "date": "16/10/2024", "reference": "REF12390", "amount": "$150.00", "transactionCode": "ACPT", "concept": "Ajuste de parcialidades" },
+  { "date": "16/10/2024", "reference": "REF12361", "amount": "$100.00", "transactionCode": "ACPT", "concept": "1/3Compra en tienda A" },
+  { "date": "16/10/2024", "reference": "REF12361", "amount": "$10.00", "transactionCode": "ACPT", "concept": "1/3 Interés" },
+  { "date": "16/10/2024", "reference": "REF12361", "amount": "$40.00", "transactionCode": "ACPT", "concept": "1/3 IVA" },
+  { "date": "16/10/2024", "reference": "REF12361", "amount": "$150.00", "transactionCode": "ACPT", "concept": "1/3 Parcialidad" },
+
+  { "date": "16/10/2024", "reference": "REF12391", "amount": "$200.00", "transactionCode": "ACPT", "concept": "Ajuste de parcialidades" },
+  { "date": "16/10/2024", "reference": "REF12395", "amount": "$1230.00", "transactionCode": "ACPT", "concept": "Aclaración Devolución de dinero" },
+  { "date": "15/10/2024", "reference": "REF12362", "amount": "$300.00", "transactionCode": "ACPT", "concept": "2/5Compra en tienda B" },
+  { "date": "15/10/2024", "reference": "REF12362", "amount": "$30.00", "transactionCode": "ACPT", "concept": "2/5 Interés" },
+  { "date": "15/10/2024", "reference": "REF12362", "amount": "$120.00", "transactionCode": "ACPT", "concept": "2/5 IVA" },
+  { "date": "15/10/2024", "reference": "REF12362", "amount": "$450.00", "transactionCode": "ACPT", "concept": "2/5 Parcialidad" },
+  { "date": "15/10/2024", "reference": "REF12382", "amount": "$150.00", "transactionCode": "ACPT", "concept": "Compra en supermercado" },
+  { "date": "15/10/2024", "reference": "REF12383", "amount": "$60.00", "transactionCode": "ACPT", "concept": "Compra en tienda A" }
+
+  { "date": "14/10/2024", "reference": "REF12363", "amount": "$150.00", "transactionCode": "ACPT", "concept": "1/4Compra en línea" },
+  { "date": "14/10/2024", "reference": "REF12363", "amount": "$50.00", "transactionCode": "ACPT", "concept": "1/4 Interés" },
+  { "date": "14/10/2024", "reference": "REF12363", "amount": "$10.00", "transactionCode": "ACPT", "concept": "1/4 IVA" },
+  { "date": "14/10/2024", "reference": "REF12363", "amount": "$210.00", "transactionCode": "ACPT", "concept": "1/4 Parcialidad" },
+
+  { "date": "14/10/2024", "reference": "REF12380", "amount": "$330.00", "transactionCode": "ACPT", "concept": "Aclaración Devolución de dinero" },
+
+  { "date": "14/10/2024", "reference": "REF12366", "amount": "$150.00", "transactionCode": "ACPT", "concept": "Ajuste de parcialidades" },
+
+  { "date": "13/10/2024", "reference": "REF12364", "amount": "$280.00", "transactionCode": "ACPT", "concept": "3/5Compra en tienda C" },
+  { "date": "13/10/2024", "reference": "REF12364", "amount": "$100.00", "transactionCode": "ACPT", "concept": "3/5 Interés" },
+  { "date": "13/10/2024", "reference": "REF12364", "amount": "$120.00", "transactionCode": "ACPT", "concept": "3/5 IVA" },
+  { "date": "13/10/2024", "reference": "REF12364", "amount": "$500.00", "transactionCode": "ACPT", "concept": "3/5 Parcialidad" },
+  { "date": "13/10/2024", "reference": "REF12370", "amount": "$60.00", "transactionCode": "ACPT", "concept": "Compra en línea" },
+{ "date": "13/10/2024", "reference": "REF12371", "amount": "$50.00", "transactionCode": "ACPT", "concept": "Compra en tienda C" },
+  { "date": "13/10/2024", "reference": "REF12372", "amount": "$100.00", "transactionCode": "ACPT", "concept": "Compra en tienda D" },
+  { "date": "13/10/2024", "reference": "REF12373", "amount": "$150.00", "transactionCode": "ACPT", "concept": "Compra en tienda E" },
+  { "date": "13/10/2024", "reference": "REF12374", "amount": "$200.00", "transactionCode": "ACPT", "concept": "Compra en supermercado" },
+
+  { "date": "12/10/2024", "reference": "REF12366", "amount": "$150.00", "transactionCode": "ACPT", "concept": "Compra en tienda B" },
+  { "date": "12/10/2024", "reference": "REF12370", "amount": "$120.00", "transactionCode": "ACPT", "concept": "Compra en línea" },
+  { "date": "12/10/2024", "reference": "REF12365", "amount": "$270.00", "transactionCode": "ACPT", "concept": "4/6Compra en línea D" },
+  { "date": "12/10/2024", "reference": "REF12365", "amount": "$100.00", "transactionCode": "ACPT", "concept": "4/6 Interés" },
+  { "date": "12/10/2024", "reference": "REF12365", "amount": "$130.00", "transactionCode": "ACPT", "concept": "4/6 IVA" },
+  { "date": "12/10/2024", "reference": "REF12365", "amount": "$500.00", "transactionCode": "ACPT", "concept": "4/6 Parcialidad" },
+  { "date": "12/10/2024", "reference": "REF12364", "amount": "$80.00", "transactionCode": "ACPT", "concept": "Compra en tienda A" },
+  { "date": "12/10/2024", "reference": "REF12367", "amount": "$200.00", "transactionCode": "ACPT", "concept": "Compra en supermercado" },
+  { "date": "12/10/2024", "reference": "REF12369", "amount": "$90.00", "transactionCode": "ACPT", "concept": "Compra en línea" },
+  { "date": "12/10/2024", "reference": "REF12368", "amount": "$80.00", "transactionCode": "ACPT", "concept": "Compra en tienda A" },
+
+  { "date": "11/10/2024", "reference": "REF12366", "amount": "$240.00", "transactionCode": "ACPT", "concept": "Compra en línea E" },
+  { "date": "11/10/2024", "reference": "REF12366", "amount": "$100.00", "transactionCode": "ACPT", "concept": "1/4 Interés" },
+  { "date": "11/10/2024", "reference": "REF12366", "amount": "$160.00", "transactionCode": "ACPT", "concept": "1/4 IVA" },
+  { "date": "11/10/2024", "reference": "REF12366", "amount": "$560.00", "transactionCode": "ACPT", "concept": "1/4 Parcialidad" },
+
+  { "date": "10/10/2024", "reference": "REF12367", "amount": "$150.00", "transactionCode": "ACPT", "concept": "Compra en línea F" },
+  { "date": "10/10/2024", "reference": "REF12367", "amount": "$100.00", "transactionCode": "ACPT", "concept": "2/3 Interés" },
+  { "date": "10/10/2024", "reference": "REF12367", "amount": "$120.00", "transactionCode": "ACPT", "concept": "2/3 IVA" },
+  { "date": "10/10/2024", "reference": "REF12367", "amount": "$370.00", "transactionCode": "ACPT", "concept": "2/3 Parcialidad" },
+
+  { "date": "09/10/2024", "reference": "REF12368", "amount": "$100.00", "transactionCode": "ACPT", "concept": "Compra en línea G" },
+  { "date": "09/10/2024", "reference": "REF12368", "amount": "$40.00", "transactionCode": "ACPT", "concept": "1/4 Interés" },
+  { "date": "09/10/2024", "reference": "REF12368", "amount": "$60.00", "transactionCode": "ACPT", "concept": "1/4 IVA" },
+  { "date": "09/10/2024", "reference": "REF12368", "amount": "$200.00", "transactionCode": "ACPT", "concept": "1/4 Parcialidad" },
+
+  { "date": "08/10/2024", "reference": "REF12369", "amount": "$280.00", "transactionCode": "ACPT", "concept": "Compra en línea H" },
+  { "date": "08/10/2024", "reference": "REF12369", "amount": "$100.00", "transactionCode": "ACPT", "concept": "3/5 Interés" },
+  { "date": "08/10/2024", "reference": "REF12369", "amount": "$120.00", "transactionCode": "ACPT", "concept": "3/5 IVA" },
+  { "date": "08/10/2024", "reference": "REF12369", "amount": "$400.00", "transactionCode": "ACPT", "concept": "3/5 Parcialidad" }
+]
+
+ARTD
+
+[
+{ "date": "17/10/2024", "reference": "REF12363", "amount": "$300.00", "transactionCode": "ACPT", "concept": "Compra en tienda C" }
+{ "date": "17/10/2024", "reference": "REF12362", "amount": "$300.00", "transactionCode": "ACPT", "concept": "Compra en tienda B" }
+{ "date": "16/10/2024", "reference": "REF12388", "amount": "$500.00", "transactionCode": "ACPT", "concept": "Compra en tienda A" }
+  { "date": "16/10/2024", "reference": "REF12361", "amount": "$500.00", "transactionCode": "ACPT", "concept": "Compra en tienda A" },
+  { "date": "16/10/2024", "reference": "REF12362", "amount": "$300.00", "transactionCode": "ACPT", "concept": "Compra en tienda B" },
+  { "date": "16/10/2024", "reference": "REF12363", "amount": "$400.00", "transactionCode": "ACPT", "concept": "Compra en tienda C" },
+  { "date": "16/10/2024", "reference": "REF12364", "amount": "$250.00", "transactionCode": "ACPT", "concept": "Compra en tienda D" },
+  { "date": "16/10/2024", "reference": "REF12365", "amount": "$600.00", "transactionCode": "ACPT", "concept": "Compra en tienda E" },
+  { "date": "16/10/2024", "reference": "REF12366", "amount": "$550.00", "transactionCode": "ACPT", "concept": "Compra en tienda F" },
+  { "date": "16/10/2024", "reference": "REF12367", "amount": "$350.00", "transactionCode": "ACPT", "concept": "Compra en tienda G" },
+  { "date": "16/10/2024", "reference": "REF12368", "amount": "$700.00", "transactionCode": "ACPT", "concept": "Compra en tienda H" },
+  { "date": "16/10/2024", "reference": "REF12369", "amount": "$300.00", "transactionCode": "ACPT", "concept": "Compra en tienda I" },
+  { "date": "16/10/2024", "reference": "REF12370", "amount": "$500.00", "transactionCode": "ACPT", "concept": "Compra en tienda J" },
+  { "date": "16/10/2024", "reference": "REF12371", "amount": "$250.00", "transactionCode": "ACPT", "concept": "Compra en tienda K" },
+  { "date": "16/10/2024", "reference": "REF12372", "amount": "$450.00", "transactionCode": "ACPT", "concept": "Compra en tienda L" },
+  { "date": "16/10/2024", "reference": "REF12373", "amount": "$500.00", "transactionCode": "ACPT", "concept": "Compra en tienda M" },
+  { "date": "16/10/2024", "reference": "REF12374", "amount": "$300.00", "transactionCode": "ACPT", "concept": "Compra en tienda N" },
+  { "date": "16/10/2024", "reference": "REF12375", "amount": "$350.00", "transactionCode": "ACPT", "concept": "Compra en tienda O" }
+
+
+
+  { "date": "16/10/2024", "reference": "REF12361", "amount": "$100.00", "transactionCode": "ACPT", "concept": "Compra en tienda A" },
+  { "date": "16/10/2024", "reference": "REF12361", "amount": "$10.00", "transactionCode": "ACPT", "concept": "2/3 Interés" },
+  { "date": "16/10/2024", "reference": "REF12361", "amount": "$40.00", "transactionCode": "ACPT", "concept": "2/3 IVA" },
+  { "date": "16/10/2024", "reference": "REF12361", "amount": "$150.00", "transactionCode": "ACPT", "concept": "2/3 Parcialidad" },
+
+  { "date": "15/10/2024", "reference": "REF12362", "amount": "$300.00", "transactionCode": "ACPT", "concept": "Compra en tienda B" },
+  { "date": "15/10/2024", "reference": "REF12362", "amount": "$30.00", "transactionCode": "ACPT", "concept": "3/5 Interés" },
+  { "date": "15/10/2024", "reference": "REF12362", "amount": "$120.00", "transactionCode": "ACPT", "concept": "3/5 IVA" },
+  { "date": "15/10/2024", "reference": "REF12362", "amount": "$450.00", "transactionCode": "ACPT", "concept": "3/5 Parcialidad" },
+
+  { "date": "14/10/2024", "reference": "REF12363", "amount": "$150.00", "transactionCode": "ACPT", "concept": "Compra en línea" },
+  { "date": "14/10/2024", "reference": "REF12363", "amount": "$50.00", "transactionCode": "ACPT", "concept": "2/4 Interés" },
+  { "date": "14/10/2024", "reference": "REF12363", "amount": "$10.00", "transactionCode": "ACPT", "concept": "2/4 IVA" },
+  { "date": "14/10/2024", "reference": "REF12363", "amount": "$210.00", "transactionCode": "ACPT", "concept": "2/4 Parcialidad" },
+
+  { "date": "13/10/2024", "reference": "REF12364", "amount": "$280.00", "transactionCode": "ACPT", "concept": "Compra en tienda C" },
+  { "date": "13/10/2024", "reference": "REF12364", "amount": "$100.00", "transactionCode": "ACPT", "concept": "4/5 Interés" },
+  { "date": "13/10/2024", "reference": "REF12364", "amount": "$120.00", "transactionCode": "ACPT", "concept": "4/5 IVA" },
+  { "date": "13/10/2024", "reference": "REF12364", "amount": "$500.00", "transactionCode": "ACPT", "concept": "4/5 Parcialidad" },
+
+  { "date": "12/10/2024", "reference": "REF12365", "amount": "$270.00", "transactionCode": "ACPT", "concept": "Compra en línea D" },
+  { "date": "12/10/2024", "reference": "REF12365", "amount": "$100.00", "transactionCode": "ACPT", "concept": "5/6 Interés" },
+  { "date": "12/10/2024", "reference": "REF12365", "amount": "$130.00", "transactionCode": "ACPT", "concept": "5/6 IVA" },
+  { "date": "12/10/2024", "reference": "REF12365", "amount": "$500.00", "transactionCode": "ACPT", "concept": "5/6 Parcialidad" },
+
+  { "date": "11/10/2024", "reference": "REF12366", "amount": "$240.00", "transactionCode": "ACPT", "concept": "Compra en línea E" },
+  { "date": "11/10/2024", "reference": "REF12366", "amount": "$100.00", "transactionCode": "ACPT", "concept": "2/4 Interés" },
+  { "date": "11/10/2024", "reference": "REF12366", "amount": "$160.00", "transactionCode": "ACPT", "concept": "2/4 IVA" },
+  { "date": "11/10/2024", "reference": "REF12366", "amount": "$560.00", "transactionCode": "ACPT", "concept": "2/4 Parcialidad" },
+
+  { "date": "10/10/2024", "reference": "REF12367", "amount": "$150.00", "transactionCode": "ACPT", "concept": "Compra en línea F" },
+  { "date": "10/10/2024", "reference": "REF12367", "amount": "$100.00", "transactionCode": "ACPT", "concept": "3/4 Interés" },
+  { "date": "10/10/2024", "reference": "REF12367", "amount": "$120.00", "transactionCode": "ACPT", "concept": "3/4 IVA" },
+  { "date": "10/10/2024", "reference": "REF12367", "amount": "$370.00", "transactionCode": "ACPT", "concept": "3/4 Parcialidad" },
+
+  { "date": "09/10/2024", "reference": "REF12368", "amount": "$100.00", "transactionCode": "ACPT", "concept": "Compra en línea G" },
+  { "date": "09/10/2024", "reference": "REF12368", "amount": "$40.00", "transactionCode": "ACPT", "concept": "2/4 Interés" },
+  { "date": "09/10/2024", "reference": "REF12368", "amount": "$60.00", "transactionCode": "ACPT", "concept": "2/4 IVA" },
+  { "date": "09/10/2024", "reference": "REF12368", "amount": "$200.00", "transactionCode": "ACPT", "concept": "2/4 Parcialidad" },
+
+  { "date": "08/10/2024", "reference": "REF12369", "amount": "$280.00", "transactionCode": "ACPT", "concept": "Compra en línea H" },
+  { "date": "08/10/2024", "reference": "REF12369", "amount": "$100.00", "transactionCode": "ACPT", "concept": "4/5 Interés" },
+  { "date": "08/10/2024", "reference": "REF12369", "amount": "$120.00", "transactionCode": "ACPT", "concept": "4/5 IVA" },
+  { "date": "08/10/2024", "reference": "REF12369", "amount": "$400.00", "transactionCode": "ACPT", "concept": "4/5 Parcialidad" }
+]
+
+
+]
+
+
+300.00
+1350.00
+630
+1000
+1000
+1680
+740
+600
+800
+
+8100

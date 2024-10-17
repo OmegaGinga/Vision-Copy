@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VISION Copy - ARSD</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="arsd">
+    <P>ARSD</P>
+    
+    <div class="command-container">
+        
+        (<input type="text" id="commandInput">)
+    </div>
+
+
+    <!-- Top Pantalla -->
+    <div class="top-container">
+        <p>ORG: 12345</p>
+        <p>ACCNT <input type="text" value="" id="cardNumberInput" readonly></p>
+    </div>
+
+    <!-- Centro Pantalla -->
+    <div class="account-statement-container">
+        <div class="statement">
+            <label for="latestStatementInput"></label>
+            <input type="text" maxlength="1" id="latestStatementInput" class="account-details-input">
+            <p>17/10/2024</p>
+        </div>
+
+        <div class="statement">
+            <label for="previousStatementInput"></label>
+            <input type="text" maxlength="1" id="previousStatementInput" class="account-details-input">
+            <p>17/09/2024</p>
+        </div>
+
+        <div class="statement">
+            <label for="previous2StatementInput"></label>
+            <input type="text" maxlength="1" id="previous2StatementInput" class="account-details-input">
+            <p>17/08/2024</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

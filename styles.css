@@ -1,0 +1,70 @@
+/* Estilos básicos para la estructura */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    color: green;
+}
+
+.inicio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#commandInput{
+    width: 50px;
+    background-color: black;
+    border: none;
+    color: green;
+    font-size: 1rem;
+}
+
+#accountInput{
+    background-color: black;
+    border: none;
+    color: green;
+    font-size: 1rem;
+}
+
+#cardNumberInput{
+    background-color: black;
+    border: none;
+    color: green;
+    font-size: 1rem;
+}
+
+.command-container, .org-container, .account-info-container, .account-details-container {
+    background-color: black;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+}
+
+p {
+    margin: 5px 0;
+}
+
+.account-details-input{
+    width: 25px;
+}
+
+.statement{
+    display: flex;
+    gap: 50px;
+}
+
+.account-statement-container{
+    display: flex;
+}
