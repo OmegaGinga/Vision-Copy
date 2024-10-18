@@ -86,3 +86,43 @@ p {
 .account-statement-container{
     display: flex;
 }
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    .inicio {
+        padding: 10px;
+    }
+
+    #commandInput, #accountInput, #cardNumberInput {
+        width: 100%;
+        font-size: 1.2rem;
+    }
+
+    .command-container, .org-container, .account-info-container, .account-details-container {
+        padding: 15px;
+        margin: 5px;
+    }
+
+    .ariq2Button, .arsd3Button {
+        width: 100%;
+        height: 50px;
+        font-size: 1rem;
+    }
+
+    .statement {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .account-details-input {
+        width: 100%;
+    }
+
+    .account-statement-container {
+        flex-direction: column;
+    }
+}
