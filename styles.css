@@ -87,42 +87,45 @@ p {
     display: flex;
 }
 
+
 /* Estilos para dispositivos móviles */
 @media (max-width: 768px) {
     body {
-        padding: 10px;
+        height: auto; /* Permitir que la altura crezca si es necesario */
+        padding: 5px;
     }
 
     .inicio {
-        padding: 10px;
+        justify-content: flex-start; /* Ajustar el contenido para que no se desplace demasiado */
+        align-items: center;
     }
 
     #commandInput, #accountInput, #cardNumberInput {
-        width: 100%;
-        font-size: 1.2rem;
+        width: 80px; /* Mantener un tamaño manejable, pero lo suficientemente amplio para usar en móvil */
+        font-size: 1rem; /* Mantener el tamaño de fuente para consistencia */
     }
 
     .command-container, .org-container, .account-info-container, .account-details-container {
-        padding: 15px;
-        margin: 5px;
+        padding: 15px; /* Reducir un poco el padding */
+        margin: 5px; /* Menos margen para que no se junten tanto los contenedores */
     }
 
     .ariq2Button, .arsd3Button {
-        width: 100%;
-        height: 50px;
+        width: 80px; /* Mantener el tamaño para consistencia */
+        height: 60px;
         font-size: 1rem;
     }
 
     .statement {
-        flex-direction: column;
-        gap: 10px;
+        flex-direction: row; /* Mantenerlo en fila, pero puedes hacer que se ajuste el gap */
+        gap: 20px; /* Reducir el gap para que no quede tanto espacio entre ellos */
     }
 
     .account-details-input {
-        width: 100%;
+        width: 25px; /* Mantener el tamaño para evitar que se estire demasiado */
     }
 
     .account-statement-container {
-        flex-direction: column;
+        flex-direction: row; /* Mantener el diseño en fila */
     }
 }
