@@ -23,6 +23,23 @@ document.getElementById('accountInput')?.addEventListener('keypress', function(e
     }
 });
 
+document.addEventListener('DOMContentLoaded', () => {
+    const ariq2Button = document.querySelector('.ariq2Button');
+    const arsd3Button = document.querySelector('.arsd3Button');
+
+    if (ariq2Button) {
+        ariq2Button.addEventListener('click', () => {
+            window.location.href = 'ariq2.html';
+        });
+    }
+
+    if (arsd3Button) {
+        arsd3Button.addEventListener('click', () => {
+            window.location.href = 'arsd3.html';
+        });
+    }
+});
+
 // Verificar si el comando "ARIQ", "ARSD", "ARPH", "X", "ARTD" o "INIC" se ha ingresado en el input de comando
 document.getElementById('commandInput')?.addEventListener('keypress', function(event) {
     if (event.key === 'Enter') {
